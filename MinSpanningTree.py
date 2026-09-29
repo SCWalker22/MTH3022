@@ -1,23 +1,23 @@
-weights_str: str = """a ↦ 2
-b ↦ 20
-c ↦ 14
-d ↦ 7
-e ↦ 4
-f ↦ 19
+weights_str: str = """a ↦ 16
+b ↦ 3
+c ↦ 9
+d ↦ 13
+e ↦ 10
+f ↦ 20
 g ↦ 12
-h ↦ 8
-i ↦ 1
-j ↦ 13
-k ↦ 16
-l ↦ 5
-m ↦ 17
-n ↦ 15
-o ↦ 18
-p ↦ 9
-q ↦ 10
-r ↦ 3
-s ↦ 11
-t ↦ 6"""
+h ↦ 2
+i ↦ 15
+j ↦ 11
+k ↦ 6
+l ↦ 8
+m ↦ 5
+n ↦ 18
+o ↦ 4
+p ↦ 7
+q ↦ 14
+r ↦ 19
+s ↦ 17
+t ↦ 1"""
 
 rows = weights_str.split("\n")
 out: list[str] = []
