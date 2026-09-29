@@ -23,10 +23,10 @@ omega_rows = omega_cycles_str.split("\n")
 omega_list: list[str] = []
 for row in omega_rows:
     useful = row.split(":")[-1].strip(".")
-    parts = useful.split("↦")
+    parts = useful.split(" ↦ ")
     temp_omega: list[str] = []
     for part in parts[:-1]:
-        temp_omega.append(part.strip(" "))
+        temp_omega.append(part)
     temp_omega_str: str = '{"'+f'{('", "').join(temp_omega)}'+'"}'
     omega_list.append(temp_omega_str)
 print(",\n".join(omega_list))
